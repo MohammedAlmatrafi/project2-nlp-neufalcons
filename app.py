@@ -67,7 +67,7 @@ def preprocess_text(text):
 testing_tab, performance_tab = st.tabs(["Test The Model", "Model Performance"])
 
 with testing_tab:
-    st.header("Test Your Model")
+    st.header("Test The Model")
 
     # Text input
     st.subheader("Enter News Text")
