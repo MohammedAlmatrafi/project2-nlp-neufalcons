@@ -41,7 +41,6 @@ st.title("📰 NLP News Classifier Model")
 st.markdown(
     """
 This application uses Classical Natural Language Processing to classify news as real or fake.
-Upload your trained model or use the demo to test news articles.
 """
 )
 
