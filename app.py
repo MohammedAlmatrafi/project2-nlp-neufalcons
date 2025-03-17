@@ -6,7 +6,6 @@ import re
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import nltk
-import tensorflow as tf
 
 # Page config
 st.set_page_config(
