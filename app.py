@@ -99,10 +99,6 @@ with testing_tab:
             confidence = probability[1] if prediction == 1 else probability[0]
             st.metric("Confidence", f"{confidence*100:.2f}%")
 
-        # Show explanation
-        st.subheader("Text Analysis")
-        top_words = st.checkbox("Show important words for classification")
-
 with performance_tab:
     st.header("Model Performance")
 
